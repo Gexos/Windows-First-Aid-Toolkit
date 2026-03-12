@@ -1,3 +1,7 @@
+# Windows First Aid Toolkit
+
+A practical first-step Windows repair utility built with AutoIt.
+
 [![Built with AutoIt](https://img.shields.io/badge/Built%20with-AutoIt-5C2D91?style=for-the-badge)](https://www.autoitscript.com/site/autoit/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge)](#)
 [![Type](https://img.shields.io/badge/Type-Repair%20Utility-F59E0B?style=for-the-badge)](#)
@@ -6,10 +10,6 @@
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-10B981?style=for-the-badge)](#)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Gexos/Windows-First-Aid-Toolkit)
 [![Blog](https://img.shields.io/badge/Blog-gexos.org-0A58CA?style=for-the-badge)](https://gexos.org)
-
-# Windows First Aid Toolkit
-
-A practical first-step Windows repair utility built with AutoIt.
 
 ## Overview
 
@@ -127,6 +127,8 @@ A practical workflow is:
 3. Watch the console output
 4. Save a log copy if needed
 5. Reboot only if one of the repairs requires it
+
+```
 
 ## Files to keep beside the script or EXE
 
