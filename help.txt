@@ -1,0 +1,117 @@
+Windows First Aid Toolkit - Help
+
+## Overview
+
+Windows First Aid Toolkit is a practical AutoIt utility for common Windows first-step repairs.
+It uses a menu-based interface and a console-style output panel to make common repair tasks
+faster and easier for technicians and power users.
+
+## Main Sections
+
+1. Preparation
+
+   * Create restore point first
+     Creates a Windows restore point before repairs, if System Protection is enabled.
+
+2. Network repairs
+
+   * Flush DNS
+   * Reset Winsock
+   * Release and renew IP
+
+3. Cleanup
+
+   * Clear user temp folder
+   * Clear system temp folder
+   * Clear browser cache for common browsers
+
+4. Windows repairs
+
+   * Run SFC /scannow
+   * Run DISM /Online /Cleanup-Image /RestoreHealth
+
+5. Service restarts
+
+   * Restart Windows Update
+   * Restart BITS
+   * Restart Print Spooler
+
+## Menus
+
+Presets
+
+* Recommended
+* Network repair only
+* Cleanup only
+* System repairs only
+* Service restarts only
+
+Actions
+
+* Run Selected
+* Check All
+* Clear All
+* Save Log Copy
+* Open Logs Folder
+* Clear Console Output
+* Exit
+
+Help
+
+* Open Help TXT
+* Open Help HTML
+* About
+
+## Console Output
+
+The bottom black panel is a console-style output area.
+It shows:
+
+* commands before they run
+* normal output
+* warnings
+* success messages
+* section headers
+
+## Usage
+
+1. Run the app as Administrator
+2. Leave only the restore point selected, or choose the options you want
+3. You can also use the Presets menu for quick selection
+4. Run the selected actions from the Actions menu
+5. Watch the console output for progress and results
+6. Save a log copy if needed
+
+## Default Startup Behavior
+
+By default, only the restore point checkbox is selected.
+All other repair options start unchecked.
+
+## Safety Notes
+
+* SFC and DISM can take a long time
+* Some actions may require a reboot
+* Browser cleanup works best when browsers are closed
+* Locked files may be skipped
+* Restore point creation depends on System Protection being enabled
+* This tool is meant for safe first-step repair actions, not deep recovery
+
+## Files Needed Beside the Script or EXE
+
+To make all Help menu items work, keep these files in the same folder:
+
+* Windows_First_Aid_Toolkit_Help.txt
+* Windows_First_Aid_Toolkit_Help.html
+
+## Credits
+
+Author: Giorgos Xanthopoulos
+Icon credits: Hristos Kalaitzis
+
+## Links
+
+GitHub Repo:
+[https://github.com/Gexos/Windows-First-Aid-Toolkit](https://github.com/Gexos/Windows-First-Aid-Toolkit)
+
+Blog:
+[https://gexos.org](https://gexos.org)

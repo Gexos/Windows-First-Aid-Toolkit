@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Windows First Aid Toolkit - Help</title>
+<style>
+body { font-family: Segoe UI, Arial, sans-serif; background:#f4f7fa; color:#1f2937; margin:0; line-height:1.6; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 32px; }
+h1, h2 { color:#0f172a; }
+.card { background:#ffffff; border:1px solid #d8e0ea; border-radius:12px; padding:20px; margin:16px 0; box-shadow:0 2px 10px rgba(0,0,0,.04); }
+code { background:#eef2f7; padding:2px 6px; border-radius:6px; }
+a { color:#0a58ca; text-decoration:none; }
+a:hover { text-decoration:underline; }
+ul, ol { margin-top:8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Windows First Aid Toolkit - Help</h1>
+
+<div class="card">
+<p><strong>Windows First Aid Toolkit</strong> is a practical AutoIt utility for common Windows first-step repairs. It uses a menu-based interface and a console-style output panel to make common repair tasks faster and easier for technicians and power users.</p>
+</div>
+
+<div class="card">
+<h2>Main Sections</h2>
+<ul>
+<li><strong>Preparation</strong> - Create restore point first.</li>
+<li><strong>Network repairs</strong> - Flush DNS, reset Winsock, release and renew IP.</li>
+<li><strong>Cleanup</strong> - Clear user temp folder, clear system temp folder, clear browser cache for common browsers.</li>
+<li><strong>Windows repairs</strong> - Run <code>sfc /scannow</code> and <code>DISM /Online /Cleanup-Image /RestoreHealth</code>.</li>
+<li><strong>Service restarts</strong> - Restart Windows Update, BITS, and Print Spooler.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Menus</h2>
+<p><strong>Presets</strong></p>
+<ul>
+<li>Recommended</li>
+<li>Network repair only</li>
+<li>Cleanup only</li>
+<li>System repairs only</li>
+<li>Service restarts only</li>
+</ul>
+
+<p><strong>Actions</strong></p>
+<ul>
+<li>Run Selected</li>
+<li>Check All</li>
+<li>Clear All</li>
+<li>Save Log Copy</li>
+<li>Open Logs Folder</li>
+<li>Clear Console Output</li>
+<li>Exit</li>
+</ul>
+
+<p><strong>Help</strong></p>
+<ul>
+<li>Open Help TXT</li>
+<li>Open Help HTML</li>
+<li>About</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Console Output</h2>
+<p>The bottom black panel is a console-style output area. It shows commands before they run, normal output, warnings, success messages, and section headers.</p>
+</div>
+
+<div class="card">
+<h2>Usage</h2>
+<ol>
+<li>Run the app as Administrator.</li>
+<li>Leave only the restore point selected, or choose the options you want.</li>
+<li>You can also use the Presets menu for quick selection.</li>
+<li>Run the selected actions from the Actions menu.</li>
+<li>Watch the console output for progress and results.</li>
+<li>Save a log copy if needed.</li>
+</ol>
+</div>
+
+<div class="card">
+<h2>Default Startup Behavior</h2>
+<p>By default, only the restore point checkbox is selected. All other repair options start unchecked.</p>
+</div>
+
+<div class="card">
+<h2>Safety Notes</h2>
+<ul>
+<li>SFC and DISM can take a long time.</li>
+<li>Some actions may require a reboot.</li>
+<li>Browser cleanup works best when browsers are closed.</li>
+<li>Locked files may be skipped.</li>
+<li>Restore point creation depends on System Protection being enabled.</li>
+<li>This tool is meant for safe first-step repair actions, not deep recovery.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Files Needed Beside the Script or EXE</h2>
+<ul>
+<li>Windows_First_Aid_Toolkit_Help.txt</li>
+<li>Windows_First_Aid_Toolkit_Help.html</li>
+</ul>
+<p>Keep these files in the same folder as the script or compiled EXE so the Help menu items work properly.</p>
+</div>
+
+<div class="card">
+<h2>Credits</h2>
+<p><strong>Author:</strong> Giorgos Xanthopoulos<br>
+<strong>Icon credits:</strong> Hristos Kalaitzis</p>
+<p><strong>GitHub Repo:</strong> <a href="https://github.com/Gexos/Windows-First-Aid-Toolkit">Windows-First-Aid-Toolkit</a><br>
+<strong>Blog:</strong> <a href="https://gexos.org">gexos.org</a></p>
+</div>
+</div>
+</body>
+</html>
