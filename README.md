@@ -128,15 +128,6 @@ A practical workflow is:
 4. Save a log copy if needed
 5. Reboot only if one of the repairs requires it
 
-```
-
-## Files to keep beside the script or EXE
-
-For the Help menu items to work correctly, keep these files in the same folder as the script or compiled EXE:
-
-- `Windows_First_Aid_Toolkit_Help.txt`
-- `Windows_First_Aid_Toolkit_Help.html`
-
 ## Safety notes
 
 This tool is meant for **safe first-step troubleshooting**, not deep recovery or destructive repair work.
