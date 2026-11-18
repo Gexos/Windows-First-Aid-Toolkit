@@ -10,6 +10,7 @@ A practical first-step Windows repair utility built with AutoIt.
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-10B981?style=for-the-badge)](#)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Gexos/Windows-First-Aid-Toolkit)
 [![Blog](https://img.shields.io/badge/Blog-gexos.org-0A58CA?style=for-the-badge)](https://gexos.org)
+[![Ko-fi](https://img.shields.io/badge/Support%20me-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white&style=for-the-badge)](https://ko-fi.com/gexos)
 
 ## Overview
 
